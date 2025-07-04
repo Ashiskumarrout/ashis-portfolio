@@ -23,7 +23,7 @@
           color: rgb(232, 21, 81) !important;
         }
         .navbar-toggler {
-          border-color: white !important; /* Makes the button border white */
+          border-color: white !important;
         }
         .navbar-toggler-icon {
           background-image: url("data:image/svg+xml;charset=UTF8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30' fill='white'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E") !important;
@@ -37,7 +37,7 @@
             }
           
             .profile-photo {
-              width: 500px; /* Increased size */
+              width: 500px;
               height: 500px;
               border-radius: 50%;
               object-fit: cover;
@@ -53,7 +53,7 @@
             }
           
             h1 {
-              font-size: 50px; /* Increased size */
+              font-size: 50px;
               font-weight: bold;
               transition: 0.3s ease-in-out;
             }
@@ -63,7 +63,7 @@
             }
           
             p {
-              font-size: 24px; /* Increased size */
+              font-size: 24px; 
               transition: 0.3s ease-in-out;
             }
           
@@ -75,32 +75,32 @@
             /* Media Query for Small to Medium Screens (Mobile Devices) */
             @media (max-width: 768px) {
               .profile-photo {
-                width: 400px; /* Smaller size for mobile */
+                width: 400px; 
                 height: 400px;
               }
           
               h1 {
-                font-size: 35px; /* Smaller font size for mobile */
+                font-size: 35px; 
               }
           
               p {
-                font-size: 20px; /* Smaller font size for paragraphs */
+                font-size: 20px; 
               }
             }
           
-            /* Media Query for Very Small Screens (Extra Small Devices) */
+            /* Media Query for Very Small Screens*/
             @media (max-width: 576px) {
               .profile-photo {
-                width: 200px; /* Further reduced size for very small screens (small phone) */
+                width: 200px;
                 height: 200px;
               }
           
               h1 {
-                font-size: 26px; /* Even smaller font size for very small screens */
+                font-size: 26px;
               }
           
               p {
-                font-size: 14px; /* Even smaller font size for very small screens */
+                font-size: 14px;
               }
             }
           /* --------------------------- */
@@ -109,22 +109,22 @@
 .d-flex {
 display: flex;
 justify-content: start;
-flex-wrap: wrap; /* Allow buttons to wrap if needed */
+flex-wrap: wrap; 
 }
 
 .btn {
-margin-right: 10px; /* Space between buttons */
+margin-right: 10px; 
 }
 
 @media (max-width: 768px) {
 .d-flex {
-flex-direction: column; /* Stack buttons vertically on smaller screens */
-align-items: flex-start; /* Align the buttons to the start */
+flex-direction: column; 
+align-items: flex-start; 
 }
 
 .btn {
-width: 100%; /* Make buttons take full width */
-margin-bottom: 10px; /* Add space between stacked buttons */
+width: 100%;
+margin-bottom: 10px; 
 }
 }
 
@@ -135,7 +135,7 @@ margin-bottom: 10px; /* Add space between stacked buttons */
 }
 
 .portfolio:hover {
-    background-color: #dc3545; /* Bootstrap red color */
+    background-color: #dc3545; 
     color: white;
 }
 
@@ -196,15 +196,22 @@ margin-bottom: 10px; /* Add space between stacked buttons */
     background-color: #17a2b8;
     color: white;
 }
+
+@media (max-width: 767px) {
+    .col-md-4 {
+        display: none;
+    }
+}
+
 /* -----------------------
  */
 
 
     .services .card {
-        background-color: #222; /* Darker background for the cards */
+        background-color: #222; 
         color: white;
-        min-height: 320px; /* Ensure cards are of equal height */
-        transition: background-color 0.3s ease; /* Smooth transition for background color */
+        min-height: 320px; 
+        transition: background-color 0.3s ease; 
     }
 
     .services .card .btn {
@@ -212,7 +219,7 @@ margin-bottom: 10px; /* Add space between stacked buttons */
     }
 
     .services .fa {
-        color: white; /* Ensure icons are white or you can adjust based on the service */
+        color: white; 
     }
 
     /* Hover effect: Red background on hover */
@@ -220,10 +227,10 @@ margin-bottom: 10px; /* Add space between stacked buttons */
         background-color: red !important;
     }
 
-    /* Ensure two boxes are in one line for large screens */
+   
     @media (min-width: 992px) {
         .col-lg-6 {
-            flex: 0 0 50%; /* 2 boxes per line on large screens */
+            flex: 0 0 50%; 
             max-width: 50%;
         }
     }
@@ -231,7 +238,7 @@ margin-bottom: 10px; /* Add space between stacked buttons */
     /* Adjustments for smaller screens */
     @media (max-width: 768px) {
         .col-md-6 {
-            flex: 0 0 100%; /* 1 box per line on smaller screens */
+            flex: 0 0 100%; 
             max-width: 100%;
         }
     }
@@ -351,8 +358,8 @@ margin-bottom: 10px; /* Add space between stacked buttons */
 
 /* ------------------------------------------------ */
 .contact {
-    background-color: black; /* Set the background color to black */
-    color: white; /* Set the text color to white */
+    background-color: black; 
+    color: white;
     padding: 50px 0;
 }
 
@@ -361,39 +368,39 @@ margin-bottom: 10px; /* Add space between stacked buttons */
 }
 
 .sub-title {
-    font-size: 48px; /* Increased font size for "Contact Me" */
+    font-size: 48px; 
     font-weight: bold;
     margin-bottom: 20px;
-    color: white; /* Ensure the sub-title is white */
-    text-align: left; /* Align "Contact Me" to the left */
+    color: white;
+    text-align: left; 
 }
 
 .contact-left p {
     font-size: 18px;
     margin: 10px 0;
-    color: white; /* Ensure all text is white */
+    color: white; 
 }
 
 .contact-left .social-icons a {
     color: white;
     margin-right: 15px;
-    font-size: 28px; /* Increased icon size */
+    font-size: 28px; 
     text-decoration: none;
 }
 
 .contact-left .social-icons a:hover {
-    color: #4CAF50; /* Green on hover */
+    color: #4CAF50; 
 }
 
 .contact-left .btn {
-    background-color: #f91d05; /* Red button */
+    background-color: #f91d05; 
     border: none;
-    padding: 12px 25px; /* Adjust padding */
+    padding: 12px 25px; 
     font-size: 18px;
     color: white;
     text-decoration: none;
     border-radius: 5px;
-    margin-top: 20px; /* Add some space between buttons */
+    margin-top: 20px;
 }
 
 .contact-left .btn:hover {
@@ -401,20 +408,20 @@ margin-bottom: 10px; /* Add space between stacked buttons */
 }
 
 .contact-right {
-    background-color: black; /* Set form background to black */
-    padding: 30px; /* Add more padding for spacing */
+    background-color: black; 
+    padding: 30px; 
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .contact-right input,
 .contact-right textarea {
-    background-color: #333; /* Slightly lighter background for form fields */
+    background-color: #333; 
     color: white;
     border: none;
     padding: 15px;
     width: 100%;
-    margin-bottom: 20px; /* More space between fields */
+    margin-bottom: 20px; 
     border-radius: 5px;
 }
 
@@ -425,14 +432,14 @@ margin-bottom: 10px; /* Add space between stacked buttons */
 }
 
 .contact-right button {
-    background-color: #ee1f08; /* Red submit button */
+    background-color: #ee1f08;
     border: none;
-    padding: 15px 25px; /* Adjust padding */
+    padding: 15px 25px; 
     font-size: 18px;
     color: white;
     text-decoration: none;
     border-radius: 5px;
-    margin-top: 20px; /* Add some space above button */
+    margin-top: 20px; 
 }
 
 .contact-right button:hover {
